@@ -18,11 +18,11 @@ body{
 
 .login-box{
     width: 400px;
-    /* position: absolute; */
     padding: 30px;
     margin: auto;
     margin-top: 50px;
     margin-left: 35%;
+    margin-bottom: 100px;
     border-radius: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 1px 13px 37px #000;

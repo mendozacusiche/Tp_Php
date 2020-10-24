@@ -14,20 +14,20 @@
   </div>
 
   <div class="contenedor">
-    <form action="">
+    <form action="" id="form">
       <section class="form-formulario">
         <h4>Formulario de Comidas y Bebidas</h4>
         <br>
         <label for="">COMIDA</label>
-        <input class="controls" type="text" name="comidas" , placeholder="Ingrese una comida" />
+        <input class="controls" type="text" name="comidas" , placeholder="Ingrese una comida" id="comida"/>
         <label for="">BEBIDA</label>
-        <input class="controls" type="text" name="Bebidas" , placeholder="Ingrese una Bebida" />
+        <input class="controls" type="text" name="Bebidas" , placeholder="Ingrese una Bebida" id="bebida" />
 
         <label for="texto">Comentarios</label>
         <br />
         <br />
 
-        <textarea class="textarea" name="texto1"></textarea>
+        <textarea class="textarea" name="texto1" id="comentarios"></textarea>
         <br />
         <br />
 
@@ -35,28 +35,28 @@
 
         <br />
         <br />
-        <select name="" id="">
+        <select name="mesas" id="n_mesa">
           <option value="">Seleccione una opción</option>
-          <option value="">1</option>
-          <option value="">2</option>
-          <option value="">3</option>
-          <option value="">4</option>
-          <option value="">5</option>
-          <option value="">6</option>
-          <option value="">7</option>
-          <option value="">8</option>
-          <option value="">9</option>
-          <option value="">10</option>
-          <option value="">11</option>
-          <option value="">12</option>
-          <option value="">13</option>
-          <option value="">14</option>
-          <option value="">15</option>
-          <option value="">16</option>
-          <option value="">17</option>
-          <option value="">18</option>
-          <option value="">19</option>
-          <option value="">20</option>
+          <option value="mesa 1">1</option>
+          <option value="mesa 2">2</option>
+          <option value="mesa 3">3</option>
+          <option value="mesa 4">4</option>
+          <option value="mesa 5">5</option>
+          <option value="mesa 6">6</option>
+          <option value="mesa 7">7</option>
+          <option value="mesa 8">8</option>
+          <option value="mesa 9">9</option>
+          <option value="mesa 10">10</option>
+          <option value="mesa 11">11</option>
+          <option value="mesa 12">12</option>
+          <option value="mesa 13">13</option>
+          <option value="mesa 14">14</option>
+          <option value="mesa 15">15</option>
+          <option value="mesa 16">16</option>
+          <option value="mesa 17">17</option>
+          <option value="mesa 18">18</option>
+          <option value="mesa 19">19</option>
+          <option value="mesa 20">20</option>
         </select>
         <br />
         <br />
@@ -65,9 +65,13 @@
           <input class="" type="reset" value="CANCELAR" />
         </div>
 
+        <p class="" id="warnings"></p>
+
       </section>
     </form>
   </div>
+  <script src="/proyecto/scripts/validacion_mozo.js"></script>
+ 
 </body>
 
 </html>
